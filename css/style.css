@@ -1,0 +1,129 @@
+.hero-container{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero-image.png);
+}
+.hero-image img{
+  position: relative;
+  left: 848px !important;
+  top: 100px !important;
+  
+}
+.hero-content{
+position: relative;
+left: 148px !important;
+bottom: 120px;
+color: #ffffff;
+}
+.btn-outline{
+  border: 2px solid #ffca47 !important;
+  color: #ffca47 !important;
+}
+.about{
+  background-color: #000000;
+  height: 1500px;
+}
+#about img{
+  position: relative;
+  left: 237px;
+  top: 172px;
+  height: 376px !important;
+  border-left: 2px solid#ffca47;
+  border-bottom: 2px solid #ffca47;
+}
+.about-content{
+  position: relative;
+  left: 250px;
+  top: 224px;
+  color: #ffffff;
+}
+.about-title{
+  color: #ffca47;
+  font-size: 36px;
+  line-height: 48px;
+}
+.services{
+ position: relative;
+ top: 250px !important;
+}
+.services-box{
+  position: relative;
+  width: 376px;
+  height: 262px;
+  background: #100f0f;
+  color: #ffffff;
+}
+
+.project-card1{
+  position: relative;
+  background:url(../img/Rectangle-8.png) ;
+  width: 278px;
+  height: 740px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-card2{
+  position: relative;
+  background:url(../img/Rectangle-9.png) ;
+  width: 278px;
+  height: 242px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 10px;
+}
+.project-card3{
+  position: relative;
+  background:url(../img/Rectangle-14.png) ;
+  width: 278px;
+  height: 490px !important;
+  background-repeat: no-repeat !important;
+  top: 250px;
+  left: -268px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-card4{
+  position: relative;
+  background:url(../img/Rectangle-10.png) ;
+  width: 278px;
+  height: 404px !important;
+  left: -258px !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-card5{
+  position: relative;
+  background:url(../img/Rectangle-11.png) ;
+  width: 570px;
+  height: 325px !important;
+  top: -325px;
+  left: 577px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-card6{
+  position: relative;
+  background:url(../img/Rectangle-12.png) ;
+  width: 278px;
+  height: 176px !important;
+  top: -740px;
+  left: 293px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-card7{
+  position: relative;
+  background:url(../img/Rectangle-13.png) ;
+  width: 278px;
+  height: 217px !important;
+  top: -554px;
+  left: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact-footer .container{
+  background: #000000;
+  height: 1208px;
+}
+
+
+
