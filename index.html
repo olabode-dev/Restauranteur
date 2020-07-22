@@ -4,17 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Restaurant</title>
-  <!--Custom Css-->
-  <link href="./css/style.css" rel="stylesheet">
-  <!--Bootstrap-->
-  <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/bootstrap/bootstrap-grid.min.css" rel="stylesheet">
-  <!--Slider-->
-  <link href="./css/slider.css" rel="stylesheet">
-  <link href="./css/owl.theme.default.scss" href="stylesheet">
-  <link href="./css/owl.carousel.min.css" href="stylesheet">
-  <!--Icons-->
-  <link href="./css/ionicons.min.css" href="stylesheet">
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+   <!--Custom CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair" rel="stylesheet">
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap" rel="stylesheet">
   
 </head>
 <body>
@@ -28,7 +25,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#care-navbar"
           aria-controls="care-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
-            <img src="./img/menu-4-24.png" alt="">
+            <img src="./img/menu.png" alt="">
           </span>
         </button>
         <div class="collapse navbar-collapse" id="care-navbar">
@@ -87,15 +84,10 @@
                Nullam laoreet luctus urna at mattis. </p>
           </div>     
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="services">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-12">
-                <div class="text-center">
+        
+        <div class="row justify-content-center" id="services">
+          <div class="col-lg-12">
+                <div class=" services-text text-center">
                     <h2 class="text-center text-gold font-weight-bold mb-5 mx-auto" 
                 style="border-bottom: 3px solid #f2994a; width: 170px; text-align: center;">
                 Services I Offer</h2>
@@ -164,20 +156,22 @@
                     </div>
                 </div>
             </div>
-            <a class="btn btn-lg btn-outline" href="#contact">WORK WITH ME</a>
+            <div class="services-btn"><a class="btn btn-lg btn-outline" href="#contact">WORK WITH ME</a></div>
         </div>
+      </div>
     </div>
-</section>
+  </section>
+
+  
 
 
-
-<section class="experience" id="experience">
-  <div class="container text-center">
+<section class="experience-container" id="experience">
+  <div class="text-center">
       <h2 class="pb-2 caption text-center">Experience</h2>
       <div class="grid-wrapper mx-auto mt-5">
           <div class="experience_jtspice text-left">
-              <h6 class="mb-3">JT Spice, CEO</h6>
-              <p class="datetime">2016 - Present</p>
+              <h5 class="mb-3">JT Spice, CEO</h5>
+              <h6 class="datetime">2016 - Present</h6>
               <p>Morbi porta turpis ac risus tempor mattis. Nulla 
                 vestibulum a lorem non luctus. Aliquam ut 
                 neque est. Sed tortor neque, rutrum dapibus 
@@ -186,8 +180,8 @@
                 laoreet luctus urna at mattis. </p>
           </div>
           <div class="experience_kfc text-left">
-              <h6 class="mb-3">Kentucky Fried Chicken, Chief Cook</h6>
-              <p class="datetime">2012 - 2016</p>
+              <h5 class="mb-3">Kentucky Fried Chicken, Chief Cook</h5>
+              <h6 class="smalltext">2012 - 2016</h6>
               <p>Morbi porta turpis ac risus tempor mattis. Nulla 
                 vestibulum a lorem non luctus. Aliquam ut 
                 neque est. Sed tortor neque, rutrum dapibus 
@@ -196,8 +190,8 @@
                 laoreet luctus urna at mattis. </p>
           </div>
           <div class="experience_chillspot text-left">
-              <h6 class="mb-3">Chillspot, Assistant Chef</h6>
-              <p class="datetime">2005 - 2012</p>
+              <h5 class="mb-3">Chillspot, Assistant Chef</h5>
+              <h6 class="datetime">2005 - 2012</h6>
               <p>Morbi porta turpis ac risus tempor mattis. Nulla 
                 vestibulum a lorem non luctus. Aliquam ut 
                 neque est. Sed tortor neque, rutrum dapibus 
@@ -206,8 +200,8 @@
                 laoreet luctus urna at mattis. </p>
           </div>
           <div class="experience_dallas text-left">
-            <h6 class="mb-3">Dallas Delight, Chief Cook</h6>
-            <p class="datetime">2012 - 2016</p>
+            <h5 class="mb-3">Dallas Delight, Chief Cook</h5>
+            <h6 class="datetime">2012 - 2016</h6>
             <p>Morbi porta turpis ac risus tempor mattis. Nulla 
               vestibulum a lorem non luctus. Aliquam ut 
               neque est. Sed tortor neque, rutrum dapibus 
@@ -298,61 +292,59 @@
     </div>
   </section>
 
-  <section class="testimonial">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-10">
-          <div id="testimonial-slider" class="owl-carousel">
-            <div class="testimonial">
-                      <p class="description">
-                        “Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
-                        neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
-                        maximus venen.”
-                      </p>
-                       <div class="pic">
-                          <img src="./img/dominic.png" alt="">
-                      </div>
-                      <div class="testimonial-prof">
-                          <span class="title">Dominic Solanke</span>
-                          <small>Web Developer</small>
-                      </div>
-                  </div>
-   
-                  <div class="testimonial">
-                     
-                      <p class="description">
-                        “Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
-                        neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
-                        maximus venen.”
-                      </p>
-                       <div class="pic">
-                          <img src="./img/dominic.png" alt="">
-                      </div>
-                      <div class="testimonial-prof">
-                          <span class="title">Dominic Solanke</span>
-                          <small>Web Designer</small>
-                      </div>
-                  </div>
-                  <div class="testimonial">
-                     
-                    <p class="description">
-                      “Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
-                      neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
-                      maximus venen.”
-                    </p>
-                     <div class="pic">
-                        <img src="./img/dominic.png" alt="">
-                    </div>
-                    <div class="testimonial-prof">
-                        <span class="title">Dominic Solanke</span>
-                        <small>Web Designer</small>
-                    </div>
+<section class="testimonial" id="testimonial">
+  <div class="testimonial-container">
+    <h2>Testimonials</h2>
+    <div class="slider-holder">
+        <div class="slider">
+            <div id="slider-item-1" class="slider-item">
+              <p>“Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
+                neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
+                maximus venen.”</p>
+                <div class="cd-author">
+                  <img src="./img/dominic.png" alt="Author image">
+                  <ul class="cd-author-info">
+                    <li>Dominic<strong>Solanke</strong><br><span>CEO Uber Eats</span></li>
+                    <li></li>
+                  </ul>
                 </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  </section>
+            </div>
+            <div id="slider-item-2" class="slider-item">
+              <p>“Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
+                neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
+                maximus venen.”</p>
+                <div class="cd-author">
+                  <img src="./img/dominic.png" alt="Author image">
+                  <ul class="cd-author-info">
+                    <li>Dominic<strong>Solanke</strong><br><span>CEO Uber Eats</span></li>
+                    <li></li>
+                  </ul>
+                </div>
+
+            </div>
+            <div id="slider-item-3" class="slider-item">
+              <p>“Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
+                neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
+                maximus venen.”</p>
+                <div class="cd-author">
+                  <img src="./img/dominic.png" alt="Author image">
+                  <ul class="cd-author-info">
+                    <li>Dominic<strong>Solanke</strong><br><span>CEO Uber Eats</span></li>
+                    <li></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <div class="slider-nav-btn go-prev">Prev</div>
+            <div class="slider-nav-btn go-next">Next</div>
+
+            <div class="slider-nav-btn start-autoplay">Start autoplay</div>
+            <div class="slider-nav-btn stop-autoplay">Stop autoplay</div>
+        </div>
+    </div>
+</div>
+</section>
 
 
   <section class="section" id="contact">
@@ -360,7 +352,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="text-center">
-                    <h2 class="text-gold">WORK WITH ME</h2>
+                    <h2 class="text-gold">Work With Me</h2>
                 </div>
             </div>
         </div> 
@@ -376,22 +368,25 @@
                     <form>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="form-group mt-2">
-                                    <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required="">
+                                <div class="form-group mt-2">FullName
+                                    <input name="name" id="name" type="text" class="form-control" placeholder="" required="">
+                                    
                                 </div>
                             </div>                          
                         </div> 
                          <div class="row">
                             <div class="col-lg-12">
-                                <div class="form-group mt-2">
-                                    <input type="email" id="email" class="form-control" placeholder="Your Email*" required="">
+                                <div class="form-group mt-2"> Email
+                                    <input type="email" id="email" class="form-control" placeholder="" required="">
+                                   
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="form-group mt-2">
-                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                <div class="form-group mt-2"> Message
+                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder=""></textarea>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -417,21 +412,19 @@
     <div class="container">
         <div class="row justify-content-left text-center">
             <div class="col-md-12">
+              <div class="footer-logo">
+                <img class="footer-img" src="./img/JT Spice.png" alt="" />
+              </div>
+              
                 <div class="text-center text-white footer-alt">
-                  <ul class="list-unstyled social-icons">
-                    <li><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
-                    <li><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
-                    <li><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
-                    <li><a href="#0"><i class="icon ion-logo-github"></i></a></li>
-                    <li><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
+                  <ul class="list-unstyled social-icons d-flex">
+                    <li><a href="#0"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#0"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#0"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="#0"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li><a href="#0"><ion-icon name="logo-instagram"></ion-icon></a></li>
                   </ul>
-                    <ul class="list-unstyled list-inline mb-3">
-                        <li class="list-inline-item"></li><a href="#"><i class="image" src=></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-linkedin text-muted"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-pinterest text-muted"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter text-muted"></i></a></li>
-                    </ul>
-                    <p class="text-muted mb-0"> © JTSpice. 2020</p>
+                    <p class="text"> Copyright, JTSpice. 2020</p>
                 </div>
             </div>
         </div>
@@ -446,8 +439,11 @@
 
   <script src="./js/jquery-3.1.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/slider.js"></script>
-  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
  
 </body>
 </html>
