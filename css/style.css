@@ -555,7 +555,7 @@ display: none;
 }
 #contact h2{
   position: relative;
-  left: 70px;
+  left: 0% !important;
   color: #ffca47;
   padding-top: 10% !important;
   font-family: 'Playfair Display', serif !important;
