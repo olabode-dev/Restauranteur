@@ -1142,9 +1142,10 @@ height: 174px;
         overflow-x: hidden;
       }
       .custom-nav {
+        overflow-x: hidden;
         background: transparent;
       left: 3%;
-      width: 375px;
+      width: 350px;
       z-index: 999;
       transition: all 0.5s ease-in-out;
     }
@@ -1361,17 +1362,21 @@ height: 174px;
   }
   .dallas-title{
     left: 2% !important;
+    width: 283px;
+    height: 72px;
   }
   .dallas-date{
-    left: -27% !important;
+    left: -31% !important;
     font-size: 16px;
     line-height: 19px;
+    margin-top: -13%
   }
   .dallas-description{
-    margin-top: 3%;
-    left: 7% !important;
+    margin-top: -4%;
+    left: -7% !important;
     font-size: 18px;
     line-height: 159.6%;
+    padding: 11%;
   }
   .main-timeline:before{
     height: 1500px;
