@@ -68,6 +68,7 @@ bottom: 120px;
 color: #ffffff;
 top: -300px !important;
 }
+
 .btn-outline{
   border: 2px solid #ffca47 !important;
   color: #ffca47 !important;
@@ -116,7 +117,7 @@ top: -300px !important;
   font-family: 'Playfair Display', serif !important;
   width: 256px;
   left: 120% !important;
-  padding-top: 200px !important;
+  padding-top: 120px !important;
 
 }
 .about h5{
@@ -153,6 +154,7 @@ top: -300px !important;
 .experience-container{
     height: 1750px !important;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/experience-image.png);
+  margin-top: -15%;
 }
 
 
@@ -1140,7 +1142,7 @@ height: 174px;
       .custom-nav {
         background: transparent;
       left: 3%;
-      width: 375px;
+      width: 300px;
       z-index: 999;
       transition: all 0.5s ease-in-out;
     }
