@@ -29,6 +29,7 @@ body {
 .hero-container{
   position: relative !important;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/hero-image.png);
+  min-height: 100vh;
 }
 .hero-image img{
   position: relative;
