@@ -449,11 +449,6 @@ display: none;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#work .btn-outline{
-  position: relative;
-  left: 40%;
-  top: -200px;
-}
 #testimonial{
   background: #000000;
   margin-top: -5%;
@@ -631,6 +626,8 @@ div {
   position: relative;
   margin-top: -30px;
   left: 83%;
+  width: 24px !important;
+  height: 24px !important;
 }
 .social-icons a{
   color: #ffffff;
@@ -649,7 +646,7 @@ div {
 }
 @media only screen and (max-width: 812px){
   .main-timeline{ margin-left: 20px; }
-  .main-timeline:before{ left: 25px; }
+  .main-timeline:before{ left: 95px; }
   .main-timeline .timeline-content{
       width: 90%;
       float: right;
@@ -663,23 +660,28 @@ div {
       border-right: 7px solid transparent;
   }
   .main-timeline .timeline-icon{
-      left: 25px;
+      left: 95px;
   }
 }
+
 
   @media (max-width: 767px){
     html{
       overflow-x: hidden;
     }
-    .hero-container{
-      margin-top: -20%;
+    body{
+      overflow-x: hidden;
+    }
+    
+    #hero-container{
+      width: 375px;
+      height: 738px;
       background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-mobile.png);
-      width:375px;
-      height: 700px;
       background-repeat: no-repeat;
       overflow-x: hidden;
     }
     .custom-nav {
+      background: transparent;
     left: 3%;
     width: 375px;
     z-index: 999;
@@ -687,7 +689,7 @@ div {
   }
   .hero-image img{
      
-    left: 120px !important;
+    left: 280px !important;
     top: 134px !important;
     width: 170.78px;
     height: 212px;
@@ -695,44 +697,45 @@ div {
   }
   .hero-content{
     margin-top: 500px;
-    left: 17px !important;
+    left: 20% !important;
   }
   .hero-title, .hero-title{
-    left: 20%;
+    left: 23%;
     font-size: 19px;
     line-height: 23px;
   }
   .hero-name{
     font-size: 40px;
     line-height: 53px;
-    left: 13%;
+    left: 16%;
     
   }
   .hero-content a{
     margin-top: 10%;
-    left: 25%;
-   
-  
+    left: 17%;
+    font-size: 20px;
+    line-height: 24px;
   }
   p{
+    padding-top: 3%;
      width: 342px;
     height: 100px;
      text-align: center;
     line-height: 139.6%;
     font-size: 18px;
-    left: 5%;
+    left: 8%;
   }
   .about{
-    height: 2600px;
+    height: 2800px;
   }
   #about img{
-    left: 35px;
+    left: 200px !important;
     top: 472px;
     height: 376px !important;
    
   }
   .about-content{
-    left: 30px;
+    left: 35%;
     top: -250px;
   }
   .about-title{
@@ -756,8 +759,9 @@ div {
   #services .text-center{
     font-size: 28px;
     line-height: 37px;
-    left: 20% !important;
+    left: 50% !important;
     padding-top: 150px !important;
+    padding-bottom: 90%
   
   }
   .about h5{
@@ -771,13 +775,13 @@ div {
   .services-btn .btn-outline{
     position:relative;
     margin-top:25%;
-    left: 160px !important;
+    left: 340px !important;
   }
   .services-boxes {
     margin-top: 10px !important;
     width: 342px;
     height: 262px;
-    left: -24%;
+    left: 8%;
    
   }
   .services-boxes:hover .services-title-border {
@@ -801,7 +805,7 @@ div {
 
 
 #experience h2{
-left: -150px;
+left: 0px;
 top: 50px;
 font-size: 28px;
 line-height: 37px;
@@ -821,63 +825,70 @@ padding-bottom: 15% !important;
   top: 13px;
 }
 .main-timeline:before{
-  height: 1250px;
+  height: 1300px;
 }
 .jt-title{
-  left: -60% !important;
+  left: -31% !important;
 }
 .jt-date{
-  left: -65% !important;
+  left: -35% !important;
   font-size: 16px;
   line-height: 19px;
 }
 .jt-description{
   margin-top: 3%;
-  left: -27% !important;
+  left: 3% !important;
   font-size: 18px;
-  margin-bottom: 10%;
+  line-height: 159.6%;
+  margin-bottom: 15%;
 }
 .kfc-title{
-  left: -5% !important;
+  left: 17% !important;
   width: 283px;
   height: 72px;
   text-align: left;
 }
 .kfc-date{
-  left: -48% !important;
+  left: -26% !important;
   font-size: 16px;
   line-height: 19px;
 
 }
 .kfc-description{
  margin-top: 3%;
-  left: -5% !important;
-  margin-bottom: 10%;
+  left: 17% !important;
+  margin-bottom: 15%;
+  font-size: 18px;
+  line-height: 159.6%;
 }
 .chill-title{
-  left: -50% !important;
+  left: -20% !important;
 }
 .chill-date{
-  left: -68% !important;
+  left: -39% !important;
   font-size: 16px;
   line-height: 19px;
 }
 .chill-description{
   margin-top: 3%;
-  left: -28% !important;
-  margin-bottom: 10%;
+  left: 2% !important;
+  margin-bottom: 15%;
+  font-size: 18px;
+  line-height: 159.6%;
 }
 .dallas-title{
-  left: -33% !important;
+  left: -11.5% !important;
 }
 .dallas-date{
-  left: -47% !important;
+  left: -26% !important;
   font-size: 16px;
   line-height: 19px;
 }
 .dallas-description{
   margin-top: 3%;
-  left: -4% !important;
+  left: 17% !important;
+  font-size: 18px;
+  line-height: 159.6%;
 }
 .btn-container { 
   display: none; 
@@ -907,41 +918,37 @@ padding-bottom: 15% !important;
 .project-card1{
   width: 339px;
   height: 358px !important;
-  left: 10%;
+  left: 18%;
 }
 .project-card2{
   width: 339px;
   height: 342px !important;
-  left: 10%;
+  left: 18%;
   top: 20px;
 }
 .project-card3{
   width: 343px;
   height: 401px !important;
   top: 40px;
-  left: 10%;
+  left: 18%;
 }
 .project-card4{
   width: 339px;
   height: 256px !important;
-  left: 10.5% !important;
+  left: 18.5% !important;
  top: 70px;
 }
 .project-card5{
   width: 339px;
   height: 320px !important;
   top: 520px;
-  left: 10%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  left: 18%;
 }
 .project-card6{
   width: 342px;
   height: 176px !important;
   top: -230px;
-  left: 10%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  left: 18%;
 }
 .project-card7{
   position: relative;
@@ -949,55 +956,11 @@ padding-bottom: 15% !important;
   width: 339px;
   height: 212px !important;
   top: -210px;
-  left: 10%;
+  left: 18%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#project-card8 img{
-  position: relative;
-  background:url(../img/food.png) ;
-  width: 474px;
-  height: 600px !important;
-  top: 200px;
-  left: 50px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#work .btn-outline{
-  position: relative;
-  left: 40%;
-  top: -200px;
-}
-.flex-direction-nav a {
-  width: 30px;
-}
-.flex-direction-nav a:before {
-  visibility: hidden;
-}
-.flex-direction-nav a:before {
-  padding: 14px 0px 10px 0px;
-}
-.flex-direction-nav .flex-prev {
-  left: 0px;
-}
-.flex-direction-nav .flex-next {
-  right: 0px;
-  text-align: right;
-}
-.flexslider:hover .flex-direction-nav .flex-prev {
-  opacity: 1;
-  left: 0px;
-}
-.flexslider:hover .flex-direction-nav .flex-prev:hover {
-  opacity: 1;
-}
-.flexslider:hover .flex-direction-nav .flex-next {
-  opacity: 1;
-  right: 0px;
-}
-.flex-direction-nav {
-  visibility: hidden;
-}
+
 .testimonial-container {
   margin-top:50px;
 margin-bottom:50px;
@@ -1015,54 +978,147 @@ height: 174px;
 .description:after {
   font-size: 25px;
 }
-.slider-item {
-  top:0;
-  left:0;
-  width:343px;
-  height:174px;
+#testimonial{
+  background: #000000;
+  margin-top: -5%;
 }
-.slider {
+
+#testimonial h2{
+  position: relative;
+  left: -10%;
+  font-family: 'Playfair Display', serif !important;
+  color: #ffca47;
+  margin-bottom: 2%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-size: 36px;
+  line-height: 48px;
+}
+.testimonial {
+  text-align: center;
+ padding-left: 10% !important;
+}
+
+
+.description {
+  font-size: 18px;
   width: 343px;
   height: 174px;
-  
+  left: -10% !important;
 }
-#contact img {
-  display: none;
+.testimonial-title {
+  font-size: 18px;
+  line-height: 24px;
+  left: -10% !important;
+ margin-top: -17% !important;
+}
+
+.testimonial-title > small {
+    position: relative;
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 5px;
+  font-family: 'Rubik', sans-serif !important ;
+}
+.pic img{
+    position: relative;
+    left: -50% !important;
+    margin-top: 10%;
+    height: 64px;
+    width: 64px;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: #ffca47;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  opacity: 1;
+}
+/* .arrow {
+  display: block;
+  position: absolute;
+  color: #dbb352;
+  cursor: pointer;
+  font-size: 2.2em;
+  top: 45%;
+  transition: all .3s ease-in-out;
+  padding: 5px;
+  z-index: 22222222;
+}
+.arrow:before {
+  cursor: pointer;
+}
+.arrow:hover {
+  color: #f4cc6a;
+}
+   .arrow.left {
+  left: 10px;
+}
+.arrow.right {
+  right: 10px;
+}*/
+
+#contact{
+  margin-top: -4%;
+  height: 1000px;
 }
 #contact h2{
-  left: -45px;
+  left: 10px;;
+  padding-top: 45% !important;
+  font-size: 28px;
+  line-height: 37px;
 }
 #contact .btn-outline{
-  left: -34%;
+  left: -20%;
+  width: 197px;
+  height: 56px;
 }
-.form {
-  left: 1px;
+
+.project-card8{
+  display: none;
+}
+#contact p{
+  position: relative;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: italic;
+  width: 340px;
+  height: 42px;
+  left: 1%;
+  text-align: left;
+}
+.form{
+  left: 18% !important;
   width: 337px;
   height: 500px !important;
   top: 100px;
+}.form-control{
+  font-size: 16px;
+  line-height: 19px;
 }
-.footer img{
-  left: -50px !important;
-  margin-top: 30%;
-}
-.footer p{
-  left: -29% !important;
-  margin-top: 20%;
-}
-#work .btn-outline{
-  left: 65px;
-  top: -167px;
-}
-.social-icons{
-  
-  margin-top: -90px;
-  left: 25%;
-}
-
-}
-
-
-
+.footer{
+  overflow: hidden;
+  height: 300px;
+ }
+ .footer img{
+   left: -4%;
+   padding-top: 15%;
+ }
+ .footer p{
+   position: relative;
+   left: 15% !important;
+   margin-top: 20%;
+ }
+ .social-icons{
+   margin-top: -100px;
+   left: 30%;
+   width: 24px !important;
+   height: 24px !important;
+ }
+   }
 
 
 
