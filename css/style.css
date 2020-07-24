@@ -9,7 +9,7 @@ body {
   font-family: 'Rubik', 'Playfair Display';
 
 }
-/********************************************** NAV *****************************/
+
 .custom-nav {
   position: relative;
   background-color: transparent;
@@ -26,11 +26,9 @@ body {
 .nav-link:hover{
   color: #ffca47;
 }
-/******************************************** HERO *******************************/
 .hero-container{
   position: relative !important;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/hero-image.png);
-
 }
 .hero-image img{
   position: relative;
@@ -73,7 +71,6 @@ top: -300px !important;
   border: 2px solid #ffca47 !important;
   color: #ffca47 !important;
 }
-/********************************** ABOUT *************************************/
 .about{
   background-color: #000000;
   height: 1600px;
@@ -112,14 +109,6 @@ top: -300px !important;
   left: -130px !important;
   top: -100px;
 }
-.about h5{
-  font-family: 'Playfair Display', serif !important;
-  padding-top: 3% !important;
-  font-size: 24px;
-  line-height: 32px;
-  padding-bottom: 2%;
-}
-/************************************ SERVICES ***************************/
 #services .text-center{
   position: relative;
   font-size: 32px;
@@ -129,7 +118,13 @@ top: -300px !important;
   padding-top: 200px !important;
 
 }
-
+.about h5{
+  font-family: 'Playfair Display', serif !important;
+  padding-top: 3% !important;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 2%;
+}
 .services-text{
   position: relative;
   font-size: 21px;
@@ -154,7 +149,6 @@ top: -300px !important;
 .services-boxes:hover .services-title-border {
   width: 60px;
 }
-/***************************************** EXPERIENCE ***************************/
 .experience-container{
     height: 1750px !important;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/experience-image.png);
@@ -273,7 +267,7 @@ color: #ffca47;
 top: 96px;
  font-family: 'Playfair Display', serif
 }
-/*************************************** TIMELINE **************************/
+
 .main-timeline{
   position: relative;
   transition: all 0.4s ease 0s;
@@ -363,7 +357,6 @@ top: 96px;
   border-left: 0;
   border-right: 7px solid transparent;
 }
-/*********************************** WORK **********************************/
 #work{
   background: #000000;
   height: 1000px;
@@ -456,7 +449,6 @@ display: none;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/************************************* TESTIMONIAL *****************************/
 #testimonial{
   background: #000000;
   margin-top: -5%;
@@ -556,7 +548,6 @@ display: none;
 .text-gold{
   color: #ffca47;
 }
-/************************************* CONTACT ********************************/
 #contact{
   background: #000000;
   margin-top: -4%;
@@ -564,14 +555,13 @@ display: none;
 }
 #contact h2{
   position: relative;
-  left: 0%;
+  left: 70px;
   color: #ffca47;
   padding-top: 10% !important;
   font-family: 'Playfair Display', serif !important;
   font-size: 36px;
   line-height: 48px;
 }
-
 #contact .btn-outline{
   position: relative;
 }
@@ -614,7 +604,6 @@ div {
 .form-group{
   color: #fff;
 }
-/************************************** FOOTER ***************************/
 .footer{
   background: #000000;
  overflow: hidden;
@@ -633,7 +622,6 @@ div {
   line-height: 21px;
   font-family: 'Rubik', sans-serif !important;
 }
-/************************************* SOCIAL ICONS *****************************/
 .social-icons{
   position: relative;
   margin-top: -30px;
@@ -648,8 +636,6 @@ div {
   margin-left: 16px !important;
 }
 /******************************************** Media Query ************************************/
-
-/********************************** 990PX *****************************/
 @media only screen and (max-width: 990px){
   .main-timeline .title{
       font-size: 25px;
@@ -658,7 +644,6 @@ div {
       top: 16px;
   }
 }
-/******************************************** 812PX ******************************/
 @media only screen and (max-width: 812px){
   .main-timeline{ margin-left: 20px; }
   .main-timeline:before{ left: 95px; }
@@ -679,7 +664,7 @@ div {
   }
 }
 
-/*****************************************767PX *************************************/
+
   @media (max-width: 767px){
     html{
       overflow-x: hidden;
@@ -1134,8 +1119,8 @@ height: 174px;
    height: 24px !important;
  }
    }
-/********************************************* 375PX ****************************/
-  
+
+   @media (max-width: 375px){
     @media (max-width: 375px){
       html{
         overflow-x: hidden;
@@ -1604,4 +1589,5 @@ height: 174px;
      width: 24px !important;
      height: 24px !important;
    }
-   
+   }
+  
