@@ -29,7 +29,6 @@ body {
 .hero-container{
   position: relative !important;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/hero-image.png);
-  min-height: 100vh;
 }
 .hero-image img{
   position: relative;
@@ -68,7 +67,6 @@ bottom: 120px;
 color: #ffffff;
 top: -300px !important;
 }
-
 .btn-outline{
   border: 2px solid #ffca47 !important;
   color: #ffca47 !important;
@@ -117,7 +115,7 @@ top: -300px !important;
   font-family: 'Playfair Display', serif !important;
   width: 256px;
   left: 120% !important;
-  padding-top: 120px !important;
+  padding-top: 200px !important;
 
 }
 .about h5{
@@ -154,7 +152,6 @@ top: -300px !important;
 .experience-container{
     height: 1750px !important;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/experience-image.png);
-  margin-top: -15%;
 }
 
 
@@ -385,6 +382,9 @@ display: none;
   font-size: 21px;
   line-height: 159.6%;
 }
+nav select {
+  display: none;
+}
 .project-card1{
   position: relative;
   background:url(../img/Rectangle-8.png) ;
@@ -558,7 +558,7 @@ display: none;
 }
 #contact h2{
   position: relative;
-  left: 0% !important;
+  left: 70px;
   color: #ffca47;
   padding-top: 10% !important;
   font-family: 'Playfair Display', serif !important;
@@ -918,6 +918,8 @@ padding-bottom: 15% !important;
   font-size: 21px;
   line-height: 159.6%;
 }
+nav ul     { display: none; }
+  nav select { display: inline-block; }
 .project-card1{
   width: 339px;
   height: 358px !important;
@@ -1142,7 +1144,7 @@ height: 174px;
       .custom-nav {
         background: transparent;
       left: 3%;
-      width: 350px;
+      width: 375px;
       z-index: 999;
       transition: all 0.5s ease-in-out;
     }
