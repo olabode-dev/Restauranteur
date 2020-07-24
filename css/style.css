@@ -28,12 +28,13 @@ body {
 }
 .hero-container{
   position: relative !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/hero-image.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/hero.png);
 }
 .hero-image img{
   position: relative;
   left: 848px !important;
   top: 100px !important;
+  border-radius: 50%;
   
 }
 .hero-title, .hero-title{
@@ -151,7 +152,7 @@ top: -300px !important;
 }
 .experience-container{
     height: 1750px !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/experience-image.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/experience.png);
 }
 
 
@@ -387,7 +388,7 @@ nav select {
 }
 .project-card1{
   position: relative;
-  background:url(../img/Rectangle-8.png) ;
+  background:url(../img/blueberry.png) ;
   width: 278px;
   height: 740px !important;
   background-repeat: no-repeat;
@@ -395,7 +396,7 @@ nav select {
 }
 .project-card2{
   position: relative;
-  background:url(../img/Rectangle-9.png) ;
+  background:url(../img/card2.png) ;
   width: 278px;
   height: 242px !important;
   background-repeat: no-repeat;
@@ -404,7 +405,7 @@ nav select {
 }
 .project-card3{
   position: relative;
-  background:url(../img/Rectangle-14.png) ;
+  background:url(../img/card3.png) ;
   width: 278px;
   height: 490px !important;
   background-repeat: no-repeat !important;
@@ -415,7 +416,7 @@ nav select {
 }
 .project-card4{
   position: relative;
-  background:url(../img/Rectangle-10.png) ;
+  background:url(../img/card4.png) ;
   width: 278px;
   height: 404px !important;
   left: -258px !important;
@@ -424,7 +425,7 @@ nav select {
 }
 .project-card5{
   position: relative;
-  background:url(../img/Rectangle-11.png) ;
+  background:url(../img/card7.png) ;
   width: 570px;
   height: 325px !important;
   top: -325px;
@@ -434,7 +435,7 @@ nav select {
 }
 .project-card6{
   position: relative;
-  background:url(../img/Rectangle-12.png) ;
+  background:url(../img/card5.png) ;
   width: 278px;
   height: 176px !important;
   top: -740px;
@@ -444,7 +445,7 @@ nav select {
 }
 .project-card7{
   position: relative;
-  background:url(../img/Rectangle-13.png) ;
+  background:url(../img/card6.png) ;
   width: 278px;
   height: 217px !important;
   top: -554px;
@@ -575,7 +576,7 @@ div {
 }
 .project-card8{
   position: relative;
-  background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/food.png) ;
+  background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/card8.png) ;
   width: 474px;
   height: 600px !important;
   top: 80px;
@@ -679,7 +680,7 @@ div {
     #hero-container{
       width: 375px;
       height: 738px;
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-mobile.png);
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero-mobile.png);
       background-repeat: no-repeat;
       overflow-x: hidden;
     }
@@ -956,14 +957,10 @@ nav ul     { display: none; }
   left: 18%;
 }
 .project-card7{
-  position: relative;
-  background:url(../img/Rectangle-13.png) ;
   width: 339px;
   height: 212px !important;
   top: -210px;
   left: 18%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .testimonial-container {
@@ -1137,7 +1134,6 @@ height: 174px;
       #hero-container{
         width: 375px;
         height: 738px;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-mobile.png);
         background-repeat: no-repeat;
         overflow-x: hidden;
       }
@@ -1437,14 +1433,10 @@ height: 174px;
     left: 5%;
   }
   .project-card7{
-    position: relative;
-    background:url(../img/Rectangle-13.png) ;
     width: 339px;
     height: 212px !important;
     top: -220px;
     left: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   
   
