@@ -1670,6 +1670,12 @@ height: 174px;
       margin-top: 25%;
       left: 555px !important;
     }
+    .timeline-content-right{
+      padding-left: 160px;
+    }
+    .timeline-content-left{
+      padding-right: 120px;
+    }
 
   }
   
